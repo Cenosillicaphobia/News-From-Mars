@@ -1,0 +1,90 @@
+.page-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+input {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  border: solid 2px orange;
+  color: orange;
+  background-color: blueviolet;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  aspect-ratio: 10/1;
+  flex-grow: 1;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px;
+  background-color: orange;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 0 5px orange,
+              0 0 25px orange,
+              0 0 50px orange,
+              0 0 200px orange;
+}
+
+a {
+  text-decoration: none;
+  width: 100%;
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.card-date {
+  font-weight: 300;
+}
+
+button {
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  padding: 10px 15px;
+  background-color: blueviolet;
+  color: orange;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: orange;
+    color: whitesmoke;
+    box-shadow: 0 0 5px orange,
+                0 0 25px orange,
+                0 0 50px orange,
+                0 0 200px orange;
+}
+
+@media(max-width:650px){
+  
+  .card-title{
+    font-size: 15px;
+  }
+
+  .card-date{
+    font-size: 10px;
+  }
+
+}

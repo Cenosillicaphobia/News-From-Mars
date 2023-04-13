@@ -1,0 +1,16 @@
+<div class="page-container">
+
+<input type="text" name="search" placeholder="Search in loaded news" [(ngModel)]="searchValue">
+
+<ng-container *ngFor=" let news of newsData">
+  <div class="card" *ngIf= "searchValue == '' || news.title.toLowerCase().includes(searchValue)">
+    <a href="{{news.url}}" target="_blank"> 
+      <p class="card-title">{{ news.title }}</p>
+      <p class="card-date">{{ news.time*1000 | date: 'short' }}</p>
+    </a>
+  </div>
+</ng-container>
+
+<button (click)="LoadMore()">Load More</button>
+
+</div>
