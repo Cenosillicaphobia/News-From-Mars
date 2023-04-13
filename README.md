@@ -1,27 +1,40 @@
-# NewsFromMars
+# News From Mars
+ 
+#### Progetto realizzato in Angular per Start2Impact, utilizzando le REST API fornite da [Hacker News](https://github.com/HackerNews/API)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+--- 
+ 
+- Inizializzare il progetto
+- Features
+- Grafica 
 
-## Development server
+--- 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Inizializzare il progetto:
 
-## Code scaffolding
+[clicca qui](https://news-from-mars.web.app) per accedere alla pagina web del progetto.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Se invece vuoi testare il progetto in locale, scarica tutti i file da questa repository, lancia il comando 'npm install' per installare tutti i pacchetti presenti nel file 'package.json' e successivamente lancia il comando 'ng serve --open' per aprire il progetto in locale. 
+ 
+--- 
 
-## Build
+## Features 
+ 
+(E' stato implementato uno 'Unit Testing' di tutti i service ed i componenti, raggiungendo una global coverage superiore al 75%) 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Questa web application nasce per essere estremamente semplice ed immediata.
+Tutte le funzionalità sono racchiuse in una singola pagina dove è possibile:
+- visualizzare l'elenco delle ultime news (cliccandovi sopra si viene reinderizzati all'articolo completo).
+- visulizzare le news successive, attraverso il pulsante 'load more'.
+- ricercare attraverso delle parole chiave tra le news già caricate. 
+ 
+--- 
+ 
+## Grafica 
+ 
+Il progetto è stato interamente realizzato attraverso l'utilizzo di CSS puro.
+L'idea è stata quella di creare un interfaccia cartoon ed originale a tema 'Marziano' per donare della personalità alla pagina. 
+ 
+--- 
+ 
+Progetto realizzato da: **Andrea Tommasini**.
